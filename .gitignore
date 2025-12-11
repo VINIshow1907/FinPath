@@ -1,0 +1,58 @@
+# =========================
+# GERAL / SISTEMA OPERACIONAL
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+
+# =========================
+# IDEs e EDITORES
+# =========================
+# Visual Studio (Pasta temporária pesada)
+.vs/
+# VS Code
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# BACKEND (.NET / C#)
+# =========================
+# Pastas de build (Sempre ignorar)
+[Bb]in/
+[Oo]bj/
+
+# Configurações locais (Segurança)
+appsettings.Development.json
+appsettings.Local.json
+
+# Arquivos temporários do Entity Framework ou migrations manuais erradas
+*.db
+*.lock
+
+# =========================
+# FRONTEND (NODE / REACT)
+# =========================
+# Dependências (A pasta mais pesada do universo)
+node_modules/
+
+# Build de produção
+dist/
+build/
+
+# Logs de erro do NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variáveis de ambiente (Segurança)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache do Vite
+**/.vite/
